@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function AlertIcon({ children }) {
-  return <div>{children}</div>;
+  return <span className='mt-2 inline-block'>{children}</span>;
 }

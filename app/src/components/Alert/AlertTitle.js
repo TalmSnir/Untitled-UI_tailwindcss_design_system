@@ -1,9 +1,5 @@
 import React from 'react';
 
 export default function AlertTitle({ children }) {
-  return (
-    <span className='text-gray-900 text-lg font-bold capitalize'>
-      {children}
-    </span>
-  );
+  return <h1 className=' text-lg font-semibold capitalize'>{children}</h1>;
 }
